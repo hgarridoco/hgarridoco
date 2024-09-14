@@ -20,3 +20,8 @@ About my career:
 * JavaScript
 * Odoo
 * C/AL 
+
+## How to reach me?
+You can reachme at:
+* [Mail](mailto:hector.garrido.colmenarejo@gmail.com "Gmail")
+* [Linkedin](https://www.linkedin.com/in/hgarridoc/ "LinkedIn")
