@@ -7,7 +7,7 @@ Some things about me:
 * Boxer life 🥊
 * Coffe addict ☕️
 * FPV drone pilot 🛠️
-* Learning about [Reflex](https://reflex.dev/ "Reflex")
+* Learning about [Django](https://www.djangoproject.com/ "Django")
 
 About my career:
 * I started developing Dynamics NAV features at [Nubit Consulting](https://nubit.es "Nubit") in 2016 
