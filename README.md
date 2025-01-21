@@ -1,7 +1,7 @@
 # Hi, I'm Hector 👋🏻 
 ### Full stack developer focused in Odoo
 
-Currently I'm working at [Ideas Positivas](https://ideaspositivas.es/ "Ideas Positivas") like **technical director**
+Currently I'm working at [Tecnic Process](https://www.tecnic.eu/ "Tecnic Process") like **IT Product Owner**
 
 Some things about me:
 * Boxer life 🥊
