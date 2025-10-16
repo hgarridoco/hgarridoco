@@ -14,7 +14,7 @@ About my career:
 * I switched to Odoo and **I fell in love** from 2019 to now
 * At 2019 I started my own business making implementations and some developings with Odoo 
 * At 2024 switched to [Ideas Positivas](https://ideaspositivas.es "IPG") as Technical consultant director
-* At 2025 switched to [TECNIC](https://tecnic.eu "TECNIC") as IT Manager
+* At 2025 switched to [TECNIC](https://tecnic.eu "TECNIC") as Technology Manager
 
 ### Main skills:
 * Python
