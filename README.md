@@ -26,4 +26,4 @@ About my career:
 ## How to reach me?
 You can reachme at:
 * [Mail](mailto:hector.garrido.colmenarejo@gmail.com "Gmail")
-* [Linkedin](https://www.linkedin.com/in/hgarridoc/ "LinkedIn")
+* [Linkedin](https://www.linkedin.com/in/hector-garrido-colmenarejo/ "LinkedIn")
