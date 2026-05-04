@@ -1,7 +1,7 @@
 # Hi, I'm Hector 👋🏻 
 ### Full stack developer focused in Odoo
 
-Currently I'm working at [TECNIC](https://www.tecnic.eu/ "TECNIC") like **IT Manager**
+Currently I'm working at [TECNIC](https://www.tecnic.eu/ "TECNIC") like **Technology Manager**
 
 Some things about me:
 * Boxer life 🥊
