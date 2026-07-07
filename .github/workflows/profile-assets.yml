@@ -1,0 +1,41 @@
+name: Generate Profile Assets
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: hgarridoco
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Generate trophy.svg
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: username=hgarridoco&theme=tokyonight&margin-w=15&no-frame=true
+          path: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push assets to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
