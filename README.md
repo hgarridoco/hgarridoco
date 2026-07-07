@@ -78,17 +78,31 @@ Currently leading technology initiatives at **[TECNIC Bioprocess Solutions](http
 ## ⏱️ WakaTime Stats
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/wakatime.svg" alt="WakaTime stats"/>
+  <img src="./profile/wakatime.svg" alt="WakaTime stats"/>
 </p>
 
+<details>
+<summary>Como conectar WakaTime</summary>
+
+1. Crea una cuenta en [wakatime.com](https://wakatime.com).
+2. Instala la extension **WakaTime** en Cursor o VS Code y pega tu API Key.
+3. Copia tu API Key desde [wakatime.com/settings/api-key](https://wakatime.com/settings/api-key).
+4. En este repo: **Settings → Secrets and variables → Actions → New repository secret**.
+   - Nombre: `WAKATIME_API_KEY`
+   - Valor: tu API Key
+5. Ejecuta **Actions → Generate Profile Assets → Run workflow**.
+
+> El usuario de WakaTime no tiene por que coincidir con tu usuario de GitHub. Con la API Key basta.
+
+</details>
 
 ---
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/stats.svg" alt="GitHub stats"/>
-  <img height="170" src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/top-langs.svg" alt="Top languages"/>
+  <img height="170" src="./profile/stats.svg" alt="GitHub stats"/>
+  <img height="170" src="./profile/top-langs.svg" alt="Top languages"/>
 </p>
 
 ---
@@ -96,7 +110,7 @@ Currently leading technology initiatives at **[TECNIC Bioprocess Solutions](http
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/streak.svg" alt="GitHub streak"/>
+  <img src="./profile/streak.svg" alt="GitHub streak"/>
 </p>
 
 ---
@@ -112,7 +126,7 @@ Currently leading technology initiatives at **[TECNIC Bioprocess Solutions](http
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
+  <img src="./profile/github-contribution-grid-snake-dark.svg" alt="Contribution snake"/>
 </p>
 
 ---
@@ -120,7 +134,7 @@ Currently leading technology initiatives at **[TECNIC Bioprocess Solutions](http
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/trophy.svg" alt="GitHub trophies"/>
+  <img src="./profile/trophy.svg" alt="GitHub trophies"/>
 </p>
 
 ---
