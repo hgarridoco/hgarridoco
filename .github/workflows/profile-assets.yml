@@ -60,7 +60,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate wakatime.svg
-        if: ${{ secrets.WAKATIME_API_KEY != '' }}
         uses: stats-organization/github-readme-stats-action@v2
         env:
           WAKATIME_TOKEN: ${{ secrets.WAKATIME_API_KEY }}
