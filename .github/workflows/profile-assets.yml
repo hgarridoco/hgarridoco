@@ -14,7 +14,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Generate snake.svg
@@ -25,11 +25,45 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Generate stats.svg
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=hgarridoco&show_icons=true&theme=tokyonight&hide_border=true
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate top-langs.svg
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=hgarridoco&layout=compact&theme=tokyonight&hide_border=true
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak.svg
+        uses: zients/github-readme-streak-stats@v2
+        with:
+          options: user=hgarridoco&theme=tokyonight&hide_border=true&disable_animations=true
+          path: dist/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate trophy.svg
         uses: soulteary/github-profile-trophy-action@v1.0.0
         with:
           options: username=hgarridoco&theme=tokyonight&margin-w=15&no-frame=true
           path: dist/trophy.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate wakatime.svg
+        continue-on-error: true
+        uses: stats-organization/github-readme-stats-action@v2
+        env:
+          WAKATIME_TOKEN: ${{ secrets.WAKATIME_API_KEY }}
+        with:
+          card: wakatime
+          options: username=hgarridoco&theme=tokyonight&layout=compact&hide_border=true
+          path: dist/wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push assets to output branch

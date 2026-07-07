@@ -78,18 +78,17 @@ Currently leading technology initiatives at **[TECNIC Bioprocess Solutions](http
 ## ⏱️ WakaTime Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=hgarridoco&theme=tokyonight&layout=compact&hide_border=true" alt="WakaTime stats"/>
+  <img src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/wakatime.svg" alt="WakaTime stats"/>
 </p>
 
-> Conecta [WakaTime](https://wakatime.com) en VS Code o Cursor para que estas métricas reflejen tu actividad real de programación.
 
 ---
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=hgarridoco&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hgarridoco&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/stats.svg" alt="GitHub stats"/>
+  <img height="170" src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/top-langs.svg" alt="Top languages"/>
 </p>
 
 ---
@@ -97,7 +96,7 @@ Currently leading technology initiatives at **[TECNIC Bioprocess Solutions](http
 ## 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=hgarridoco&theme=tokyonight&hide_border=true"/>
+  <img src="https://raw.githubusercontent.com/hgarridoco/hgarridoco/output/streak.svg" alt="GitHub streak"/>
 </p>
 
 ---
