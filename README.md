@@ -75,14 +75,6 @@ Currently leading technology initiatives at **[TECNIC Bioprocess Solutions](http
 
 ---
 
-## ⏱️ WakaTime Stats
-
-<p align="center">
-  <img src="./profile/wakatime.svg" alt="WakaTime stats"/>
-</p>
-
----
-
 ## 📈 GitHub Stats
 
 <p align="center">
